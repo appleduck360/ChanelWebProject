@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pioneer Project 2</title>
+	<style>
+		.Header {
+  			display: block;
+  			margin-left: auto;
+ 			margin-right: auto;
+			padding:15px;
+			top:0;
+			
+}
+		.container {
+			width: 1000px;
+			height:auto;
+			text-align:center;
+		}
+		.mainNav {
+			width: 100%;
+    		height: auto;
+			line-height: 150px;
+    		margin-top:10px;
+    		margin-right: auto;
+    		margin-bottom: 0px;
+    		margin-left: auto;
+			
+}
+		.navButton {
+			width: 25%;
+			height: auto;
+    		background-color: transparent;
+    		text-align: center;
+			font-size: 14px;
+			color: black;
+    		float: left;
+    		padding-top: 15px;
+    		padding-bottom: 15px;
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			box-sizing: border-box;
+			line-height: 5px;
+			position: relative;
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+	.navButton:hover {
+		color:gray;
+	}
+		
+	.mainDropdownContent {
+		width:100%;
+		height:auto;
+		position: absolute;
+		top: 37px;
+		display: none;
+		}
+		
+	.navButton:hover .mainDropdownContent {
+		display: block;
+	}
+	
+/* IF YOU MAKE THEM SIMPLY A-TAGS YOU NEED TO SPECIFY 'DISPLAY:BLOCK' AND STYLE IT AS SUCH IN ORDER FOR THE A-TAG TO LOOK LIKE A BUTTON */
+	.mainDropdownContent a {
+		background-color:white;
+		color: black;
+/*		border-left:solid black 1px;
+*//*		border-right: solid black 0px;
+		border-left:solid red 1px;
+*/		line-height: 30px;
+		display: block;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	}
+	.mainDropdownContent a:hover {
+		color:white;
+		background-color:black;
+	}
+		main {
+			width:1000px;
+			height: 100%;
+			margin: auto;
+		}
+	footer {
+    	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    	font-size: 16px;
+   		background-color: black;
+		color: white;
+    	padding: 20px;
+    	height: 125px;
+    	width: 100%;
+    	margin-top: 0px;
+    	margin-right: auto;
+    	margin-bottom: 0px;
+    	margin-left: auto;
+		box-sizing: border-box;
+		z-index: 5;
+		position:relative;
+		bottom:0;
+}
+	.footerNav {
+		display: flex;
+		flex-flow: row nowrap;
+		width:70%;
+		height: auto;
+		background-color:transparent;
+		margin: 0px auto;
+		vertical-align: middle;
+
+	}
+	.ulOne {
+		list-style-type:none;
+		width:33.3%;
+		background-color:transparent;
+		text-align: center
+	}
+	.ulTwo {
+		list-style-type: none;
+		width:33.3%;
+		background-color:transparent;
+		text-align:center
+	}
+	.ulThree {
+		list-style-type: none;
+		width:33.3%;
+		background-color:transparent;
+		text-align: center;
+	}
+	.text {
+		color: white;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size:16px;
+		}
+	.text2 {
+		color:black;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size:16px;
+		font-style:italic
+		}
+		
+	</style>
+</head>
+
+<body>
+<!-- HEADER AND NAVIAGTION -->
+<header><a href="ChanelHome.html"><img src="../Desktop/CHANEL HTML/ChanelLogo1.png" width="284" height="39.375" alt="" class="Header"/></a></header>
+<nav class="mainNav">
+	<a href="ChanelHome.html" class="navButton" style="text-decoration: none">HOME</a>
+	<a href="Chanel_Biography(COMPLETE).html" class="navButton" style="text-decoration: none">BIOGRAPHY</a>
+	<div class="navButton">PHILOSOPHY
+		<div class="mainDropdownContent">
+			<a href="Chanel_Founder(Complete).html">THE FOUNDER</a>
+			<a href="Chanel_Stories(COMPLETE).html">THE STORIES</a>
+			</div>
+		</div>
+	<div class="navButton">PHOTOS
+		<div class="mainDropdownContent">
+			<a href="Chanel_by_Artists(COMPLETE).html">COCO BY ARTISTS</a>
+			<a href="Chanel_Fashion(Complete).html">THE FASHION</a>
+			</div>
+		</div>
+</nav>
+	<div style= "background-color:#262626;margin-top:49px; width:100%;height:auto; text-align:center">
+		<h1 style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';text-align:center;padding:15px; color:white">THE STORIES</h1>
+		<video width="1280" height="760" controls>
+			<source src="Marilyn and N°5 – Inside CHANEL.mp4" type="video/mp4" margin:"0px auto">
+		</video>
+	</div>
+	
+<div style="width:750px; height:auto; text-align:center; margin:0px auto; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-weight:bold; font-size:40px;padding:20px;">
+	<article>"WHAT DO I WEAR IN BED? WHY, CHANEL NO. 5, OF COURSE."</article>
+<article class="text2" style="padding:5px">- MARILYN MONROE</article></div>
+<footer>
+	
+	<footer>
+	<nav class="footerNav">
+		<ul class="ulOne">
+			<li><a href="https://www.chanel.com/us/haute-couture/" class="text" style="text-decoration: none">HAUTE COUTURE</a></li>
+			<li><a href="https://www.chanel.com/us/fashion/" class="text" style="text-decoration: none">FASHION</a></li>
+			<li><a href="https://www.chanel.com/us/high-jewelry/" class="text" style="text-decoration: none">HIGH JEWELRY</a></li>
+			</ul>
+		<ul class="ulTwo">
+		  <li><a href="https://www.chanel.com/us/fine-jewelry/" class="text" style="text-decoration: none">FINE JEWELRY</a></li>
+			<li><a href="https://www.chanel.com/us/watches/" class="text" style="text-decoration: none">WATCHES</a></li>
+			<li><a href="https://www.chanel.com/us/eyewear/" class="text" style="text-decoration: none">EYEWEAR</a></li>
+	  </ul>
+		<ul class="ulThree">
+			<li><a href="https://www.chanel.com/us/makeup/" class="text" style="text-decoration: none">MAKEUP</a></li>
+			<li><a href="https://www.chanel.com/us/skincare/" class="text" style="text-decoration: none">SKINCARE</a></li>
+			<li><a href="https://www.chanel.com/us/fragrance/" class="text" style="text-decoration: none">FRAGRANCE</a></li>
+		</ul>
+	</nav>
+	</footer>
+	</body>
+</html>

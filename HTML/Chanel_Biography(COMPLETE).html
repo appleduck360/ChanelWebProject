@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pioneer Project 2</title>
+	<style>
+		.Header {
+  			display: block;
+  			margin-left: auto;
+ 			margin-right: auto;
+			padding:15px;
+			top:0;
+			
+}
+		.container {
+			width: 1000px;
+			height:auto;
+			text-align:center;
+		}
+		.mainNav {
+			width: 100%;
+    		height: auto;
+			line-height: 150px;
+    		margin-top:10px;
+    		margin-right: auto;
+    		margin-bottom: 0px;
+    		margin-left: auto;
+	
+}
+		.navButton {
+			width: 25%;
+			height: auto;
+    		background-color: transparent;
+    		text-align: center;
+			font-size: 14px;
+			color: black;
+    		float: left;
+    		padding-top: 15px;
+    		padding-bottom: 15px;
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			box-sizing: border-box;
+			line-height: 5px;
+			position: relative;
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+	.navButton:hover {
+		color:gray;
+	}
+		
+	.mainDropdownContent {
+		width:100%;
+		height:auto;
+		position: absolute;
+		top: 37px;
+		display: none;
+		}
+		
+	.navButton:hover .mainDropdownContent {
+		display: block;
+	}
+	
+/* IF YOU MAKE THEM SIMPLY A-TAGS YOU NEED TO SPECIFY 'DISPLAY:BLOCK' AND STYLE IT AS SUCH IN ORDER FOR THE A-TAG TO LOOK LIKE A BUTTON */
+	.mainDropdownContent a {
+		background-color:white;
+		color: black;
+/*		border-left:solid black 1px;
+*//*		border-right: solid black 0px;
+		border-left:solid red 1px;
+*/		line-height: 30px;
+		display: block;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	}
+	.mainDropdownContent a:hover {
+		color:white;
+		background-color:black;
+	}
+		main {
+			width:1000px;
+			height: 100%;
+			margin: auto;
+		}
+	footer {
+    	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    	font-size: 16px;
+   		background-color: black;
+		color: white;
+    	padding: 20px;
+    	height: 125px;
+    	width: 100%;
+    	margin-top: 0px;
+    	margin-right: auto;
+    	margin-bottom: 0px;
+    	margin-left: auto;
+		box-sizing: border-box;
+		z-index: 5;
+		position:relative;
+		bottom:0;
+}
+	.footerNav {
+		display: flex;
+		flex-flow: row nowrap;
+		width:70%;
+		height: auto;
+		background-color:transparent;
+		margin: 0px auto;
+		vertical-align: middle;
+
+	}
+	.ulOne {
+		list-style-type:none;
+		width:33.3%;
+		background-color:transparent;
+		text-align: center
+	}
+	.ulTwo {
+		list-style-type: none;
+		width:33.3%;
+		background-color:transparent;
+		text-align:center
+	}
+	.ulThree {
+		list-style-type: none;
+		width:33.3%;
+		background-color:transparent;
+		text-align: center;
+	}
+	.text {
+		color: white;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size:16px;
+		}
+	.text2 {
+		color:black;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size:16px;
+		font-style:italic
+		}
+		
+	</style>
+</head>
+
+<body>
+<!-- HEADER AND NAVIAGTION -->
+<header><a href="ChanelHome.html"><img src="../Desktop/CHANEL HTML/ChanelLogo1.png" width="284" height="39.375" alt="" class="Header"/></a></header>
+	
+<nav class="mainNav">
+	<a href="ChanelHome.html" class="navButton" style="text-decoration: none">HOME</a>
+	<a href="Chanel_Biography(COMPLETE).html" class="navButton" style="text-decoration: none">BIOGRAPHY</a>
+	<div class="navButton">PHILOSOPHY
+		<div class="mainDropdownContent">
+			<a href="Chanel_Founder(Complete).html">THE FOUNDER</a>
+			<a href="Chanel_Stories(COMPLETE).html">THE STORIES</a>
+			</div>
+		</div>
+	<div class="navButton">PHOTOS
+		<div class="mainDropdownContent">
+			<a href="Chanel_by_Artists(COMPLETE).html">COCO BY ARTISTS</a>
+			<a href="Chanel_Fashion(Complete).html">THE FASHION</a>
+			</div>
+		</div>
+</nav>
+<main style="margin-top:75px">
+<img src="../Desktop/CHANEL HTML/Biography/Chanel_Profile.jpeg" width="300" height="300" alt="" style="border-radius: 1000px"/>
+<div style="width:650px;height:auto; float:right; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';">
+	<h2>GABRIELLE CHANEL</h2>
+	<h3>QUICK FACTS</h3>
+	<article style="padding-bottom:5px">Born: August 19, 1883, Saumur, France</article>
+	<article style="padding-bottom:5px">Died: January 10, 1971, Paris, France</article>
+	<article style="padding-bottom:5px">Raised in an orphanage</article>
+	<article style="padding-bottom:5px">Nuns taught her how to sew</article>
+	<article style="padding-bottom:5px">Got name *Coco* during her singing days</article>
+	<article style="padding-bottom:5px">She introduced pants for women</article>
+	<article style="padding-bottom:5px">She invented women's suits</article>
+	</div>
+</main>
+	<div style="width:1000px; height:auto; margin:0px auto; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'">
+		<h3>EARLY LIFE</h3>
+		<p>Chanel was born Gabrielle Bonheur Chanel on August 19, 1883, in Saumur, France. Her early years were anything but glamorous. At age 12, after her mother’s death, Chanel was put in an orphanage by her father, who worked as a peddler.</p>
+
+		<p>Chanel was raised by nuns who taught her how to sew —  a skill that would lead to her life’s work. Her nickname came from another occupation entirely. During her brief career as a singer, Chanel performed in clubs in Vichy and Moulins where she was called “Coco.”</p>
+
+ 		<p>Some say that the name comes from one of the songs she used to sing, and Chanel herself said that it was a “shortened version of cocotte, the French word for 'kept woman,'” according to an article in The Atlantic.</p>
+		
+		<h3>BEGGININGS OF A FASHION EMPIRE</h3>
+		<p>Around the age of 20, Chanel became involved with Etienne Balsan, who offered to help her start a millinery business in Paris. She soon left him for one of his wealthier friends, Arthur “Boy” Capel. Both men were instrumental in Chanel’s first fashion venture.</p>
+
+		<p>Opening her first shop on Paris’s Rue Cambon in 1910, Chanel started out selling hats. She later added stores in Deauville and Biarritz and began making clothes.</p>
+
+ 		<p>Her first taste of clothing success came from a dress she fashioned out of an old jersey on a chilly day. In response to the many people who asked about where she got the dress, she offered to make one for them. “My fortune is built on that old jersey that I’d put on because it was cold in Deauville,” she once told author Paul Morand.</p>
+		
+		<p>Chanel became a popular figure in Parisian literary and artistic worlds. She designed costumes for the Ballets Russes and Jean Cocteau’s play Orphée, and counted Cocteau and artist Pablo Picasso among her friends.</p>
+		
+		<h3>ICONIC DESIGNS: CHANEL SUIT & LITTLE BLACK DRESS</h3>
+		<p>In 1925, Chanel introduced the now legendary Chanel suit with collarless jacket and well-fitted skirt. Her designs were revolutionary for the time—borrowing elements of men’s wear and emphasizing comfort over the constraints of then-popular fashions. She helped women say goodbye to the days of corsets and other confining garments.</p>
+		
+		<p>Another 1920s revolutionary design was Chanel’s little black dress. She took a color once associated with mourning and showed just how chic it could be for evening wear.</p>
+		
+		<h3>CLOSING DOWN</h3>
+		<p>The international economic depression of the 1930s had a negative impact on Chanel's company, but it was the outbreak of World War II that led her to close her business. She fired her workers and shut down her shops.</p>
+		
+		<h3>RETURN TO FASHION</h3>
+		<p>At the age of 70, in the early 1950s, Chanel made a triumphant return to the fashion world. She first received scathing reviews from critics, but her feminine and easy-fitting designs soon won over shoppers around the world.</p>
+		
+		<h3>DEATH</h3>
+		<p>Chanel died on January 10, 1971, at her apartment in the Hotel Ritz. She never married, having once said “I never wanted to weigh more heavily on a man than a bird.” Hundreds crowded together at the Church of the Madeleine to bid farewell to the fashion icon. In tribute, many of the mourners wore Chanel suits.</p>
+
+		<p style= "margin-bottom:50px">A little more than a decade after her death, designer Karl Lagerfeld took the reins at her company to continue the Chanel legacy. Today her namesake company is held privately by the Wertheimer family and continues to thrive, believed to generate hundreds of millions in sales each year.</p>
+
+</div>
+<footer>
+	<nav class="footerNav">
+		<ul class="ulOne">
+			<li><a href="https://www.chanel.com/us/haute-couture/" class="text" style="text-decoration: none">HAUTE COUTURE</a></li>
+			<li><a href="https://www.chanel.com/us/fashion/" class="text" style="text-decoration: none">FASHION</a></li>
+			<li><a href="https://www.chanel.com/us/high-jewelry/" class="text" style="text-decoration: none">HIGH JEWELRY</a></li>
+			</ul>
+		<ul class="ulTwo">
+			<li><a href="https://www.chanel.com/us/fine-jewelry/" class="text" style="text-decoration: none">FINE JEWELRY</a></li>
+			<li><a href="https://www.chanel.com/us/watches/" class="text" style="text-decoration: none">WATCHES</a></li>
+			<li><a href="https://www.chanel.com/us/eyewear/" class="text" style="text-decoration: none">EYEWEAR</a></li>
+			</ul>
+		<ul class="ulThree">
+			<li><a href="https://www.chanel.com/us/makeup/" class="text" style="text-decoration: none">MAKEUP</a></li>
+			<li><a href="https://www.chanel.com/us/skincare/" class="text" style="text-decoration: none">SKINCARE</a></li>
+			<li><a href="https://www.chanel.com/us/fragrance/" class="text" style="text-decoration: none">FRAGRANCE</a></li>
+		</ul>
+	</nav>
+	</footer>
+</body>
+</html>
